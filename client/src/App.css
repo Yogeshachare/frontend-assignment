@@ -1,0 +1,83 @@
+.assignment__main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #081c29;
+}
+
+.assignment__main_background {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.customButton {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #2596be;
+  color: white;
+  cursor: pointer;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .assignment__main_background {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .assignment__main_background {
+    width: 100%;
+    height: 100vh;
+  }
+  .assignment__main-form input {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .assignment__main_background {
+    width: 100%;
+    height: 100vh;
+  }
+  .assignment__main-form input {
+    width: 15rem;
+  }
+}

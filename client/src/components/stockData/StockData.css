@@ -1,0 +1,30 @@
+.assignment__main_info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 3s;
+}
+.assignment__main_info-data {
+  display: flex;
+
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 1rem;
+}
+
+.assignment__main_info-data h1 {
+  color: #2596be;
+}
+
+.assignment__main_info-data h2 {
+  color: rgb(75, 72, 72);
+}
+
+.assignment__main_info-error {
+  padding: 10px 0;
+  color: #d61b1b;
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 300px;
+}

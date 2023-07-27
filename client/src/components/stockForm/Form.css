@@ -1,0 +1,27 @@
+.assignment__main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.assignment__main-form p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #2596be;
+}
+
+.assignment__main-form input {
+  width: 20rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  color: gray;
+}
+
+.assignment__main_form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
